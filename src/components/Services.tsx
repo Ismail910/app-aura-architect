@@ -87,7 +87,7 @@ const Services = () => {
 
         {/* Why Choose Us */}
         <div className="bg-gradient-card rounded-2xl p-8 border border-border/50">
-          <h3 className="text-2xl font-bold text-center mb-8">Why Choose TechForge?</h3>
+          <h3 className="text-2xl font-bold text-center mb-8">Why Choose GEMMA SMART?</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="p-4 rounded-full bg-primary/10 w-16 h-16 mx-auto mb-4 flex items-center justify-center">

@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-bold bg-gradient-accent bg-clip-text text-transparent mb-4">
-              TechForge
+              GEMMA SMART
             </h3>
             <p className="text-muted-foreground mb-6 max-w-md">
               We craft exceptional digital experiences through innovative web development, 
@@ -55,7 +55,7 @@ const Footer = () => {
 
         <div className="border-t border-border mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm">
-            © 2024 TechForge. All rights reserved.
+            © 2024 GEMMA SMART. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 sm:mt-0">
             <a href="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">

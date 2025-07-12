@@ -97,8 +97,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-2">Email Us</h3>
-                    <p className="text-muted-foreground mb-1">hello@techforge.com</p>
-                    <p className="text-muted-foreground">support@techforge.com</p>
+                    <p className="text-muted-foreground mb-1">hello@gemmasmart.com</p>
+                    <p className="text-muted-foreground">support@gemmasmart.com</p>
                   </div>
                 </div>
               </CardContent>

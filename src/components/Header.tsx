@@ -12,7 +12,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <h1 className="text-2xl font-bold bg-gradient-accent bg-clip-text text-transparent">
-              TechForge
+              GEMMA SMART
             </h1>
           </div>
 
