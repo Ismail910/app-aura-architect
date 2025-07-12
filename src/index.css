@@ -8,50 +8,54 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 224 71% 4%;
-    --foreground: 213 31% 91%;
+    --background: 6 11% 8%;
+    --foreground: 189 100% 90%;
 
-    --card: 224 71% 4%;
-    --card-foreground: 213 31% 91%;
+    --card: 217 19% 12%;
+    --card-foreground: 189 100% 90%;
 
-    --popover: 224 71% 4%;
-    --popover-foreground: 213 31% 91%;
+    --popover: 217 19% 12%;
+    --popover-foreground: 189 100% 90%;
 
-    --primary: 263 70% 50%;
-    --primary-foreground: 210 40% 98%;
-    --primary-glow: 263 70% 65%;
+    --primary: 189 100% 60%;
+    --primary-foreground: 6 11% 8%;
+    --primary-glow: 189 100% 75%;
 
-    --secondary: 216 34% 17%;
-    --secondary-foreground: 213 31% 91%;
+    --secondary: 217 19% 15%;
+    --secondary-foreground: 189 100% 90%;
 
-    --muted: 223 47% 11%;
-    --muted-foreground: 215.4 16.3% 56.9%;
+    --muted: 217 19% 18%;
+    --muted-foreground: 217 15% 65%;
 
-    --accent: 216 34% 17%;
-    --accent-foreground: 213 31% 91%;
+    --accent: 271 89% 65%;
+    --accent-foreground: 6 11% 8%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 216 34% 17%;
-    --input: 216 34% 17%;
-    --ring: 263 70% 50%;
+    --border: 217 19% 20%;
+    --input: 217 19% 15%;
+    --ring: 189 100% 60%;
 
-    /* Custom design tokens */
-    --tech-blue: 217 91% 60%;
-    --tech-purple: 263 70% 50%;
-    --tech-cyan: 189 94% 93%;
-    --tech-green: 142 76% 36%;
+    /* Sci-fi design tokens */
+    --cyber-cyan: 189 100% 60%;
+    --cyber-blue: 217 100% 65%;
+    --cyber-purple: 271 89% 65%;
+    --cyber-pink: 326 100% 75%;
+    --neon-green: 120 100% 50%;
     
-    /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(263 70% 50%), hsl(217 91% 60%));
-    --gradient-card: linear-gradient(145deg, hsl(216 34% 17%), hsl(223 47% 11%));
-    --gradient-accent: linear-gradient(90deg, hsl(263 70% 50%), hsl(217 91% 60%));
+    /* Advanced gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(189 100% 60%), hsl(271 89% 65%), hsl(217 100% 65%));
+    --gradient-card: linear-gradient(145deg, hsl(217 19% 12%), hsl(217 19% 15%));
+    --gradient-accent: linear-gradient(90deg, hsl(189 100% 60%), hsl(271 89% 65%));
+    --gradient-cyber: radial-gradient(circle, hsl(189 100% 60% / 0.2), transparent);
+    --gradient-neural: conic-gradient(from 0deg, hsl(189 100% 60%), hsl(271 89% 65%), hsl(326 100% 75%), hsl(189 100% 60%));
     
-    /* Shadows */
-    --shadow-glow: 0 0 50px hsl(263 70% 50% / 0.3);
-    --shadow-card: 0 10px 30px hsl(224 71% 4% / 0.3);
-    --shadow-button: 0 4px 15px hsl(263 70% 50% / 0.4);
+    /* Sci-fi shadows */
+    --shadow-glow: 0 0 50px hsl(189 100% 60% / 0.4);
+    --shadow-cyber: 0 0 30px hsl(271 89% 65% / 0.3), inset 0 0 20px hsl(189 100% 60% / 0.1);
+    --shadow-neural: 0 8px 32px hsl(189 100% 60% / 0.2);
+    --shadow-hologram: 0 0 40px hsl(189 100% 60% / 0.3), 0 0 80px hsl(271 89% 65% / 0.2);
 
     --radius: 0.5rem;
 

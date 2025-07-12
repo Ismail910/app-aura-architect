@@ -59,6 +59,13 @@ export default {
 					cyan: 'hsl(var(--tech-cyan))',
 					green: 'hsl(var(--tech-green))'
 				},
+				cyber: {
+					cyan: 'hsl(var(--cyber-cyan))',
+					blue: 'hsl(var(--cyber-blue))',
+					purple: 'hsl(var(--cyber-purple))',
+					pink: 'hsl(var(--cyber-pink))',
+					green: 'hsl(var(--neon-green))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -112,10 +119,38 @@ export default {
 				},
 				'pulse-glow': {
 					'0%, 100%': {
-						boxShadow: '0 0 20px hsl(263 70% 50% / 0.3)'
+						boxShadow: '0 0 20px hsl(189 100% 60% / 0.3)'
 					},
 					'50%': {
-						boxShadow: '0 0 40px hsl(263 70% 50% / 0.6)'
+						boxShadow: '0 0 40px hsl(189 100% 60% / 0.6)'
+					}
+				},
+				'neural-pulse': {
+					'0%, 100%': {
+						opacity: '0.6',
+						transform: 'scale(1)'
+					},
+					'50%': {
+						opacity: '1',
+						transform: 'scale(1.1)'
+					}
+				},
+				'data-flow': {
+					'0%': {
+						transform: 'translateX(-100%)'
+					},
+					'100%': {
+						transform: 'translateX(100%)'
+					}
+				},
+				'hologram': {
+					'0%, 100%': {
+						opacity: '0.8',
+						transform: 'rotateY(0deg)'
+					},
+					'50%': {
+						opacity: '1',
+						transform: 'rotateY(5deg)'
 					}
 				}
 			},
@@ -124,12 +159,17 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in-up': 'fade-in-up 0.6s ease-out',
 				'float': 'float 3s ease-in-out infinite',
-				'pulse-glow': 'pulse-glow 2s ease-in-out infinite'
+				'pulse-glow': 'pulse-glow 2s ease-in-out infinite',
+				'neural-pulse': 'neural-pulse 3s ease-in-out infinite',
+				'data-flow': 'data-flow 4s linear infinite',
+				'hologram': 'hologram 4s ease-in-out infinite'
 			},
 			backgroundImage: {
 				'gradient-hero': 'var(--gradient-hero)',
 				'gradient-card': 'var(--gradient-card)',
-				'gradient-accent': 'var(--gradient-accent)'
+				'gradient-accent': 'var(--gradient-accent)',
+				'gradient-cyber': 'var(--gradient-cyber)',
+				'gradient-neural': 'var(--gradient-neural)'
 			}
 		}
 	},

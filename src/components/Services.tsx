@@ -9,27 +9,27 @@ const Services = () => {
   const services = [
     {
       icon: Code,
-      title: "Website Development",
-      description: "Custom websites and web applications built with modern technologies",
+      title: "Neural Web Systems",
+      description: "Next-generation web applications powered by advanced algorithms and quantum-inspired architectures",
       image: webDevImg,
-      features: ["Responsive Design", "SEO Optimized", "Fast Performance", "Modern Tech Stack"],
-      color: "text-primary"
+      features: ["Quantum-Responsive Design", "Neural SEO Optimization", "Hyper-Speed Performance", "Future-Ready Stack"],
+      color: "text-cyber-cyan"
     },
     {
       icon: Smartphone,
-      title: "Mobile App Development",
-      description: "Native and cross-platform mobile applications for iOS and Android",
+      title: "Quantum Mobile Apps",
+      description: "Revolutionary mobile experiences with AI-driven interfaces and neural network integration",
       image: mobileDevImg,
-      features: ["iOS & Android", "Cross-Platform", "App Store Ready", "User-Friendly UI"],
-      color: "text-tech-blue"
+      features: ["Neural iOS & Android", "Quantum Cross-Platform", "AI-Powered UX", "Smart Adaptive UI"],
+      color: "text-cyber-blue"
     },
     {
       icon: Brain,
-      title: "AI Solutions",
-      description: "Intelligent automation and AI-powered applications for your business",
+      title: "Advanced AI Intelligence",
+      description: "Cutting-edge artificial intelligence solutions with deep learning and cognitive computing",
       image: aiDevImg,
-      features: ["Machine Learning", "Automation", "Data Analytics", "Smart Chatbots"],
-      color: "text-tech-purple"
+      features: ["Deep Neural Networks", "Cognitive Automation", "Predictive Analytics", "Sentient Chatbots"],
+      color: "text-cyber-purple"
     }
   ];
 
@@ -39,17 +39,18 @@ const Services = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-            Our <span className="bg-gradient-accent bg-clip-text text-transparent">Services</span>
+            Our <span className="bg-gradient-neural bg-clip-text text-transparent">Neural Services</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            We provide comprehensive digital solutions to help your business thrive in the modern world
+            We architect advanced digital ecosystems using quantum computing principles, 
+            neural networks, and AI-driven technologies that redefine what's possible
           </p>
         </div>
 
         {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {services.map((service, index) => (
-            <Card key={index} className="group hover:shadow-xl transition-all duration-300 bg-gradient-card border-border/50 hover:border-primary/50">
+            <Card key={index} className="group hover:shadow-hologram transition-all duration-300 bg-gradient-card border-cyber-cyan/20 hover:border-cyber-cyan/50 backdrop-blur-sm">
               <CardHeader className="pb-4">
                 <div className="relative h-48 rounded-lg overflow-hidden mb-4">
                   <img 
@@ -57,9 +58,10 @@ const Services = () => {
                     alt={service.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
-                  <div className={`absolute bottom-4 left-4 p-3 rounded-full bg-background/90 ${service.color}`}>
+                  <div className="absolute inset-0 bg-gradient-to-t from-background/90 to-transparent" />
+                  <div className={`absolute bottom-4 left-4 p-3 rounded-full bg-background/90 backdrop-blur-sm ${service.color} shadow-cyber`}>
                     <service.icon className="w-6 h-6" />
+                    <div className="absolute inset-0 rounded-full bg-gradient-cyber animate-neural-pulse opacity-50"></div>
                   </div>
                 </div>
                 <CardTitle className="text-xl">{service.title}</CardTitle>
@@ -76,8 +78,8 @@ const Services = () => {
                     </li>
                   ))}
                 </ul>
-                <Button variant="outline" className="w-full group">
-                  Learn More
+                <Button variant="cyber" className="w-full group">
+                  Access Neural Interface
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </CardContent>
@@ -86,29 +88,32 @@ const Services = () => {
         </div>
 
         {/* Why Choose Us */}
-        <div className="bg-gradient-card rounded-2xl p-8 border border-border/50">
+        <div className="bg-gradient-card rounded-2xl p-8 border border-cyber-cyan/30 shadow-neural backdrop-blur-sm">
           <h3 className="text-2xl font-bold text-center mb-8">Why Choose GEMMA SMART?</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="p-4 rounded-full bg-primary/10 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                <Globe className="w-8 h-8 text-primary" />
+              <div className="relative p-4 rounded-full bg-cyber-cyan/10 w-16 h-16 mx-auto mb-4 flex items-center justify-center border border-cyber-cyan/30">
+                <Globe className="w-8 h-8 text-cyber-cyan" />
+                <div className="absolute inset-0 rounded-full bg-gradient-cyber animate-neural-pulse"></div>
               </div>
-              <h4 className="text-lg font-semibold mb-2">Global Reach</h4>
-              <p className="text-muted-foreground">We serve clients worldwide with 24/7 support and multilingual capabilities</p>
+              <h4 className="text-lg font-semibold mb-2">Neural Global Network</h4>
+              <p className="text-muted-foreground">Quantum-encrypted worldwide deployment with AI-powered 24/7 autonomous support</p>
             </div>
             <div className="text-center">
-              <div className="p-4 rounded-full bg-tech-blue/10 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                <Zap className="w-8 h-8 text-tech-blue" />
+              <div className="relative p-4 rounded-full bg-cyber-blue/10 w-16 h-16 mx-auto mb-4 flex items-center justify-center border border-cyber-blue/30">
+                <Zap className="w-8 h-8 text-cyber-blue" />
+                <div className="absolute inset-0 rounded-full bg-gradient-cyber animate-neural-pulse" style={{ animationDelay: '1s' }}></div>
               </div>
-              <h4 className="text-lg font-semibold mb-2">Fast Delivery</h4>
-              <p className="text-muted-foreground">Rapid development cycles without compromising on quality or security</p>
+              <h4 className="text-lg font-semibold mb-2">Quantum Processing</h4>
+              <p className="text-muted-foreground">Hyper-speed development using quantum algorithms and neural acceleration</p>
             </div>
             <div className="text-center">
-              <div className="p-4 rounded-full bg-tech-purple/10 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                <Users className="w-8 h-8 text-tech-purple" />
+              <div className="relative p-4 rounded-full bg-cyber-purple/10 w-16 h-16 mx-auto mb-4 flex items-center justify-center border border-cyber-purple/30">
+                <Users className="w-8 h-8 text-cyber-purple" />
+                <div className="absolute inset-0 rounded-full bg-gradient-cyber animate-neural-pulse" style={{ animationDelay: '2s' }}></div>
               </div>
-              <h4 className="text-lg font-semibold mb-2">Expert Team</h4>
-              <p className="text-muted-foreground">Skilled developers and designers with years of industry experience</p>
+              <h4 className="text-lg font-semibold mb-2">AI Expert Collective</h4>
+              <p className="text-muted-foreground">Human-AI hybrid team with decades of future technology experience</p>
             </div>
           </div>
         </div>

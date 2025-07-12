@@ -20,6 +20,8 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         hero: "bg-gradient-hero text-primary-foreground hover:scale-105 shadow-lg hover:shadow-xl transition-all duration-300",
         glow: "bg-primary text-primary-foreground hover:bg-primary/90 hover:animate-pulse-glow",
+        cyber: "bg-gradient-neural text-primary-foreground hover:animate-neural-pulse border border-cyber-cyan/30 shadow-cyber",
+        neural: "bg-cyber-purple text-primary-foreground hover:bg-cyber-purple/90 shadow-neural hover:shadow-hologram transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",
